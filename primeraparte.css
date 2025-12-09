@@ -1,0 +1,17 @@
+a{
+    position: absolute;
+    bottom: 200px;
+    right: 200px;
+    color: white;
+    font-size: 2em;
+    text-decoration: none;
+}
+@media (prefers-color-scheme: dark) {
+    body{
+        background-color: black;
+        color: white;
+    }
+    a{
+        color: black;
+    }
+}
